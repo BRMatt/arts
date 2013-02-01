@@ -1,0 +1,180 @@
+V "GNAT Lib v3.14 "
+A -gnatk32
+A -gnatk32
+A -gnatf
+A -gnatwl
+P
+R vnvnnvvvnnnnvvvvvvvvnnnnvnnnnnvvnnnnnnvnvnn
+
+U chute%b		chute.adb		1B740881 PK IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W ada.interrupts.names%s  a-intnam.ads		a-intnam.ali
+W basic_integer_types%s	basic_integer_types.ads	basic_integer_types.ali
+W io_interface%s	io_interface.adb	io_interface.ali
+W register_control%s	register_control.adb	register_control.ali  EA
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.interrupts%s	s-interr.adb		s-interr.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U chute%s		chute.ads		19EA1BEC NE PK IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+
+D ada.ads		19941113020443 2359F9ED
+D a-calend.ads		20080123131440 4F83E187
+D a-except.ads		20001220181314 18895590
+D a-finali.ads		19971119133819 3F32DEEF
+D a-filico.ads		19970305005844 1DECB9AC
+D a-interr.ads		20100510095302 60FC8DAB
+D a-intnam.ads		20100510095302 24E78C8B
+D a-ioexce.ads		19941113052010 175CB67B
+D a-stream.ads		19971119133847 5F7C277B
+D a-tags.ads		19980810213501 45EF7E4E
+D a-textio.ads		20000826115840 2D24B708
+D a-unccon.ads		19951001012526 751D104C
+D basic_integer_types.ads  20031222122659 5DA21D50
+D chute.ads		20100510095302 5669FA6B
+D chute.adb		20100510095302 5815F59E
+D configuration_parameters.ads  20031222122659 16C5AC93
+D error_codes.ads	20031222122659 740A7C6E
+D general_constants.ads	20031222122700 24338A59
+D hardware_interface.ads  20080123131443 2005A1E7 1:hardware_interface.gps
+D interfac.ads		19990427033020 0357E00A
+D i-c.ads		20080123131440 2233A21F
+D i-cstrea.ads		20000730230359 7FB66A6A
+D interrupt_tables.ads	20031222122615 3E89B8F7
+D io_interface.ads	20031222122616 202127C2
+D kernel.ads		20031222122713 76832195
+D kernelapplicationschedulingdata.ads  20031222122701 570D71D3
+D kernel-condition_variables.ads  20031222122701 3C9EFD9F
+D kernel-hardware_interrupts.ads  20080123131407 15725EA8
+D kernel-mutexes.ads	20031222122704 0EF77915
+D kernel-scheduler.ads	20031222122706 14CCDAE0
+D kernel-signals.ads	20031222122707 4A6A9ADA
+D kernel-signals-global.ads  20031222122706 6793AF3D
+D kernel-tasks_operations.ads  20031222122708 316370B3
+D kerneltasksoperatiapplicaschedul.ads  20031222122710 509BB134
+D kerneltasksoperationsattributes.ads  20031222122711 0205FFD5
+D kerneltasksoperationanosleepgnat.ads  20031222122712 21D926B4
+D kernel-timers.ads	20031222122710 446A2530
+D option_sets.ads	20031222122713 628F500F
+D posix.ads		20031222122634 4870F080
+D posix_hardware_interrupts.ads  20031222122637 463E808C
+D processor_registers.ads  20031222122617 77283CD0
+D pthread.ads		20031222122713 168839CA
+D register_control.ads	20100510095302 39F19A20
+D sched.ads		20031222122714 103C1192
+D signal.ads		20031222122714 6E36B8AB
+D signals_values.ads	20031222122714 03CABA9D
+D singly_linked_lists.ads  20031222122621 4562EEB1
+D singly_linked_lists-advanced.ads  20031222122623 390476EC
+D singly_linked_lists-map.ads  20031222122622 12EDF9C2
+D singly_linked_lists-order.ads  20031222122622 49D861DC
+D singly_linked_lists-resources.ads  20031222122623 6119F0DA
+D stacks_management.ads	20031222122715 52FFB677
+D system.ads		20000818213617 22B6217D
+D s-exctab.ads		19990919095915 7A25F5F9
+D s-ficobl.ads		20001027210341 0C03FD47
+D s-finimp.ads		19980220234008 1C201C0F
+D s-finroo.ads		20001114112810 7F5B7F76
+D s-intman.ads		19980914130337 6BEEF880
+D s-interr.ads		20000204153615 0D5C7D18
+D s-osinte.ads		20080123131440 4D785325
+D s-parame.ads		20000730230401 204FFF40
+D s-secsta.ads		19990723142132 60A2A5CD
+D s-soflin.ads		20001025172806 41BCF13E
+D s-stache.ads		19990409121031 42B57F2A
+D s-stalib.ads		20000818213539 4F0050D6
+D s-stoele.ads		19980907140905 131D4539
+D s-stratt.ads		20001228160445 1761725B
+D s-tasinf.ads		20010110093122 16824B12
+D s-taspri.ads		20080123131440 4F1D3254
+D s-taskin.ads		20000706121303 28374190
+D s-taprob.ads		19991118113910 1D5668B3
+D s-tpoben.ads		20001006205948 31B20821
+D s-tpobop.ads		19990104180733 4916EA6C
+D s-unstyp.ads		19990701235613 78AFB91D
+D text_io.ads		19961216024653 7854661C
+D time.ads		20031222122715 312041EC
+D type_timespec.ads	20031222122716 116259DB
+D unchconv.ads		19960730024842 72DC4539
+D unchdeal.ads		19961216024713 1B133BD2
+X 1 ada.ads
+18K9*Ada 14|1r6 1r24 15|1r6 1r24 2r6 2r26 3r6 3r32
+X 2 a-calend.ads
+40K13*Calendar 14|1r10 1r28 15|1r10 1r28
+43O9*Time 14|11r53 15|24r55 33r13 43r55 104r56
+55V13*Clock 15|52r18
+X 6 a-interr.ads
+4K13*Interrupts 15|2r10 2r30 3r10 3r36
+17U14*Attach_Handler 15|113r4 114r4
+X 7 a-intnam.ads
+1K24*Names 15|3r21 3r47
+3I4*Parallel_1 15|113r47
+4I4*Serial_1 15|114r46
+X 11 a-textio.ads
+245U14*Put 15|53r34
+260U14*Put_Line 15|66r34 112r5 116r4
+X 13 basic_integer_types.ads
+43K9*Basic_Integer_Types 15|8r6 8r31
+X 14 chute.ads
+3K9*chute 14r5 14e10 15|14b14 120t4
+5E10*ball_detected 11r31 15|24r32 43r32 104r33
+5n28*metal 15|46r22
+5n35*unknown 15|49r22
+6U15*hopper_load 15|74b15 77r9 77t20
+7U15*hopper_unload 15|79b15 82t8
+8U15*sorter_metal 15|85b15 89t8
+9U15*sorter_glass 15|91b15 95t8
+10U15*sorter_close 15|98b15 101t8
+11U15*get_ball 15|104b16 107r10 107t18
+11e24 b 15|104b25 106m26
+11O46 t 15|104b48 106m28
+X 15 chute.adb
+23W20 sensor_t 34r9 34e17 42b20 68r9 68t17 70r10
+24Y15 get_ball 43b15 54r13 54t21 106r17
+24e24 b 46m17 49m17
+24O47 t 52m13
+25U19 metal_handler 27r34 56b19 59r13 59t26
+26U19 ball_handler 28r34 61b19 67r13 67t25
+31b9 got_ball 43r66 50r17 64r12
+32b9 got_metal 43r78 45r15 47r17 58r14
+33O9 d
+37E10 sorter_position 39r14
+37n30 metal 39r33
+37n37 glass
+39e5 sorter
+43e24 b
+43O47 t
+70w1 sensor 106m10 113m19 114m19
+109i1 j
+X 24 io_interface.ads
+48K9*IO_Interface 15|9r6 9r24
+X 43 register_control.ads
+1K9*Register_Control 15|12r6 12r28
+3n29*Unload 15|81r35
+3n37*Load 15|76r35
+4n29*Open 15|87r35 93r43
+4n35*Closed 15|87r40 93r35 100r35 100r43
+7U15*Initialize_Interfaces 15|115r4
+8U15*Write_Hopper_Command_Bits 15|76r9 81r9
+9U15*Write_Sorter_Command_Bits 15|87r9 93r9 100r9
+11V14*SP_Check_Interrupt 15|63r13
+13U14*Wait_For_Software_Control 15|117r4
+X 53 system.ads
+41K9*System 15|7r6 7r18
+103I12*Priority 15|29r25
+X 75 text_io.ads
+21K9*Text_IO 15|4r6 4r19
+

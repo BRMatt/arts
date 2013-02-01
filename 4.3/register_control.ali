@@ -1,0 +1,162 @@
+V "GNAT Lib v3.14 "
+A -gnatk32
+A -gnatk32
+A -gnatf
+A -gnatwl
+P
+R nnvnnnnvnnnnvvvvvvvvnnnnnnnnnnvnnnnnnnvnnnn
+
+U register_control%b	register_control.adb	269148DB PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W basic_integer_types%s	basic_integer_types.ads	basic_integer_types.ali
+W io_interface%s	io_interface.adb	io_interface.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U register_control%s	register_control.ads	39F19A20 NE PK
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		19941113020443 2359F9ED
+D a-except.ads		20001220181314 18895590
+D a-finali.ads		19971119133819 3F32DEEF
+D a-filico.ads		19970305005844 1DECB9AC
+D a-ioexce.ads		19941113052010 175CB67B
+D a-stream.ads		19971119133847 5F7C277B
+D a-tags.ads		19980810213501 45EF7E4E
+D a-textio.ads		20000826115840 2D24B708
+D a-unccon.ads		19951001012526 751D104C
+D basic_integer_types.ads  20031222122659 5DA21D50
+D interfac.ads		19990427033020 0357E00A
+D i-cstrea.ads		20000730230359 7FB66A6A
+D io_interface.ads	20031222122616 202127C2
+D register_control.ads	20100510095302 39F19A20
+D register_control.adb	20100510095302 6FAA9E39
+D system.ads		20000818213617 22B6217D
+D s-exctab.ads		19990919095915 7A25F5F9
+D s-ficobl.ads		20001027210341 0C03FD47
+D s-finimp.ads		19980220234008 1C201C0F
+D s-finroo.ads		20001114112810 7F5B7F76
+D s-parame.ads		20000730230401 204FFF40
+D s-secsta.ads		19990723142132 60A2A5CD
+D s-soflin.ads		20001025172806 41BCF13E
+D s-stache.ads		19990409121031 42B57F2A
+D s-stalib.ads		20000818213539 4F0050D6
+D s-stoele.ads		19980907140905 131D4539
+D s-stratt.ads		20001228160445 1761725B
+D s-unstyp.ads		19990701235613 78AFB91D
+D text_io.ads		19961216024653 7854661C
+D unchconv.ads		19960730024842 72DC4539
+X 1 ada.ads
+18K9*Ada 15|4r6 112r6 115r6 118r6 121r6 124r6 127r6 130r6 132r6 134r6
+X 9 a-unccon.ads
+22v14*Unchecked_Conversion 15|4r10 112r10 115r10 118r10 121r10 124r10 127r10
+. 130r10 132r10 134r10
+X 10 basic_integer_types.ads
+43K9*Basic_Integer_Types 15|1r6 1r31
+58M9*Unsigned_8 15|112r55 115r31 118r58 121r61 124r56 127r51 130r56 132r31
+. 134r31 191r17 249r19 263r19 277r16 290r19
+X 13 io_interface.ads
+48K9*IO_Interface 15|2r6 2r24 202r9 213r7 219r7 225r7 231r7 235r15 252r20
+. 258r8 266r20 273r7 279r17 293r23
+53I9*IO_Port 15|139r29 144r30 145r30 146r30 147r30 148r30 149r30 150r30 151r30
+. 152r30 153r30 154r30 165r30 166r30 167r30 168r30
+61V13*Inb_P 15|235r28 252r33 266r33 279r30 293r36
+85U14*Outb_P 15|202r22 213r20 219r20 225r20 231r20 241r10 258r21 273r20
+X 14 register_control.ads
+1K9*Register_Control 20r5 20e21 15|5b14 298r5 298t21
+3E10*Hopper_Command 8r51 18r9 15|10r15 248r51
+3n29*Unload 18r29
+3n37*Load 18r42
+4E10*Sorter_Command 9r49 10r43 19r9 15|11r15 12r15 261r48 262r43
+4n29*Open 19r29
+4n35*Closed 19r40
+7U15*Initialize_Interfaces 15|190b15 246r9 246t30
+8U15*Write_Hopper_Command_Bits 15|248b15 259r8 259t33
+8e41 Command 15|248b41 254r17
+9U15*Write_Sorter_Command_Bits 15|261b14 274r8 274t33
+9e41 First 15|261b40 270r17
+10e33 Second 15|262b33 271r17
+11V14*SP_Check_Interrupt 15|276b13 286r8 286t26
+13U14*Wait_For_Software_Control 15|288b14 297r8 297t33
+X 15 register_control.adb
+8R9 Parallel_Data_Register 13e17 14r8 21r8 112r31 115r43 250r13 264r13
+10e10*HC 254r11
+11e10*S1 270r11
+12e10*S2 271r11
+23R9 Parallel_Status_Register 26e17 27r8 32r8 134r43 289r13
+25b10*Ready 295r24
+34R9 Parallel_Control_Register 37e17 38r8 43r8 118r31 192r13
+36b10*Interrupt_Enabled 199r13
+48E9 Register_Select 49r8 66r23
+48n29 Transfer_Regs 49r29
+48n44 Divisor_Regs 50r29 207r25
+52E9 Parity 54r8 67r16
+52n20 No_Parity 54r20 208r18
+52n31 Odd_Parity 54r36
+52n43 Even_Parity 54r53
+53n21 High_Parity 55r21
+53n34 Low_Parity 55r39
+57E9 Number_Of_Bit_Stops 58r8 68r21
+57n33 One 58r33 209r23
+57n38 Two 58r43
+60E9 Word_Length 61r8 69r21
+60n25 Bits_5 61r25
+60n33 Bits_6 61r38
+60n41 Bits_7 62r25
+60n49 Bits_8 62r38 223r23
+64R9 Serial_Line_Control_Register 70e17 72r8 80r8 121r31 193r13
+66e10*Reg_Select 207r11
+67e10*Par 208r11
+68e10*Bit_Stop 209r11
+69e10*Word_Len 223r11
+82E9 Serial_Divisor_Register 83r8 84r8 124r31 194r12
+82n37 B19200 83r37
+82n45 B9600 83r50 216r13
+87R9 Serial_IE_Register 90e17 91r8 95r8 127r31 195r14
+89b10*Modem_Status_Interrupt_Enabled 229r12
+98R9 Interrupt_Mask_Register 102e17 103r8 108r8 130r31 132r43 196r12
+100b10*Parallel_Interrupt_Enabled 237r10
+101b10*Serial1_Interrupt_Enabled 238r10
+111V13 Unchecked_Conversion_To_Unsigned_8 257r20 272r20
+114V13 Unchecked_Conversion_To_Parallel_Data_Register 253r14 269r14
+117V13 Unchecked_Conversion_To_Unsigned_8 200r17
+120V13 Unchecked_Conversion_To_Unsigned_8 211r17 224r15
+123V13 Unchecked_Conversion_To_Unsigned_8 217r15
+126V13 Unchecked_Conversion_To_Unsigned_8 230r15
+129V13 Unchecked_Conversion_To_Unsigned_8 239r15
+131V13 Unchecked_Conversion_To_Interrupt_Mask_Register 236r13
+133V13 Unchecked_Conversion_To_Parallel_Status_Register 294r17
+139i4 Master_Ocw 235r34 241r18
+144i4 SP_BASE_REG 231r28 279r37
+145i4 SP_DATA_REG
+146i4 SP_DLLR_REG 219r42
+147i4 SP_IER_REG 231r42
+148i4 SP_DLHR_REG
+149i4 SP_IIR_FCR_REG
+150i4 SP_LCR_REG 213r42 225r42
+151i4 SP_MCR_REG
+152i4 SP_LSR_REG
+153i4 SP_MSR_REG 279r51
+154i4 SP_SCRATCH_REG
+165i4 PP_BASE_REG 202r30 213r28 219r28 225r28 252r40 258r29 266r40 273r28
+. 293r43
+166i4 PP_DATA_REG 252r54 258r43 266r54 273r42
+167i4 PP_STATUS_REG 293r57
+168i4 PP_CONTROL_REG 202r44
+191m7 Data 200m9 202r60 211m9 213r54 217m7 219r55 224m7 225r54 230m7 231r54
+. 235m7 236r61 239m7 241r30
+192r7 PCR 199m9 200r52
+193r7 LCR 207m7 208m7 209m7 211r52 223m7 224r50
+194e7 DR 216m7 217r50
+195r7 SIER 229m7 230r50
+196r7 IM 236m7 237m7 238m7 239r50
+249m7 port_data 252m7 253r61 257m7 258r56
+250r7 reg 253m7 254m7 257r55
+263m7 port_data 266m7 269r61 272m7 273r55
+264r7 reg 269m7 270m7 271m7 272r55
+277m7 S_Data 279m7 280r10
+289r7 Reg 294m10 295r20
+290m7 port_data 293m10 294r66
+X 29 text_io.ads
+21K9*Text_IO 15|3r6 3r19
+

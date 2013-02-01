@@ -1,0 +1,95 @@
+V "GNAT Lib v3.14 "
+A -gnata
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U basic_integer_types%s	basic_integer_types.ads	5DA21D50 NE PU PK
+
+D basic_integer_types.ads  20031222122659 5DA21D50
+D system.ads		20000818213617 22B6217D
+X 1 basic_integer_types.ads
+43K9*Basic_Integer_Types 44r17 202r5 202e24
+46I9*Integer_8 47r8
+49I9*Integer_16 50r8
+52I9*Integer_32 53r8
+55I9*Integer_64 56r8
+58M9*Unsigned_8 59r8 96r16 98r16 101r16 103r16 106r16 108r16 111r16 113r16
+. 116r16 118r16
+61M9*Unsigned_16 62r8 121r16 123r16 126r16 128r16 131r16 133r16 136r16 138r16
+. 141r16 143r16
+64M9*Unsigned_32 65r8 146r16 148r16 151r16 153r16 156r16 158r16 161r16 163r16
+. 166r16 168r16
+67M9*Unsigned_64 68r8 171r16 173r16 176r16 178r16 181r16 183r16 186r16 188r16
+. 191r16 193r16
+71I12*Int 78r36 79r26 91r23
+72I12*Short 80r36 81r32
+73I12*Long 82r36 83r31
+75I9*Signed_Char 76r8 85r36 86r31
+78M9*Unsigned 79r8 90r23
+80M9*Unsigned_Short 81r8
+82M9*Unsigned_Long 83r8
+85M9*Unsigned_Char 86r8 88r26
+88M12*Plain_Char
+90M12*Size_T
+91I12*Ssize_T
+95V13*Shift_Left
+96m7 Value
+97i7 Amount
+100V13*Shift_Right
+101m7 Value
+102i7 Amount
+105V13*Shift_Right_Arithmetic
+106m7 Value
+107i7 Amount
+110V13*Rotate_Left
+111m7 Value
+112i7 Amount
+115V13*Rotate_Right
+116m7 Value
+117i7 Amount
+120V13*Shift_Left
+121m7 Value
+122i7 Amount
+125V13*Shift_Right
+126m7 Value
+127i7 Amount
+130V13*Shift_Right_Arithmetic
+131m7 Value
+132i7 Amount
+135V13*Rotate_Left
+136m7 Value
+137i7 Amount
+140V13*Rotate_Right
+141m7 Value
+142i7 Amount
+145V13*Shift_Left
+146m7 Value
+147i7 Amount
+150V13*Shift_Right
+151m7 Value
+152i7 Amount
+155V13*Shift_Right_Arithmetic
+156m7 Value
+157i7 Amount
+160V13*Rotate_Left
+161m7 Value
+162i7 Amount
+165V13*Rotate_Right
+166m7 Value
+167i7 Amount
+170V13*Shift_Left 195m30
+171m7 Value
+172i7 Amount
+175V13*Shift_Right 196m30
+176m7 Value
+177i7 Amount
+180V13*Shift_Right_Arithmetic 197m30
+181m7 Value
+182i7 Amount
+185V13*Rotate_Left 198m30
+186m7 Value
+187i7 Amount
+190V13*Rotate_Right 199m30
+191m7 Value
+192i7 Amount
+
